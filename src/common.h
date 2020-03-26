@@ -35,9 +35,9 @@
 
 #define FRAME_SIZE (16 * MULTI * 10 )
 
-#define CAL_TIME_BY_FRAME(frame) (MULTI * 10 * frame)
+#define CAL_TIME_BY_FRAME(frame) (MULTI * 10L * frame)
 
-#define CAL_FRAME_BY_TIME(time) (time / (MULTI * 10))
+#define CAL_FRAME_BY_TIME(time) (time / (MULTI * 10L))
 
 /*`
 uint64_t inline CAL_TIME_BY_FRAME(int frame){
